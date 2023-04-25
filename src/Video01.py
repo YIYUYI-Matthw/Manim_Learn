@@ -3,7 +3,7 @@ from manimlib.imports import *
 from manimlib import constants
 
 # https://zhuanlan.zhihu.com/p/379544971 这个教程不错
-
+# 基本概念：Scene&Animation：https://zhuanlan.zhihu.com/p/104701396
 if __name__ == '__main__':
     mob = Mobject()
     # 使用ndarray定义三维坐标，2D场景，第三维度坐标设为0
@@ -18,4 +18,3 @@ if __name__ == '__main__':
     print(constants.TOP)  # ([max,1,0])
     print(constants.OUT)  # ([0,0,1]) 三维
     print(constants.UP + constants.RIGHT)  # 合成向量
-    # shift(*vector)
