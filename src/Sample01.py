@@ -84,6 +84,10 @@ class Move_(Scene):
 
 
 class FA(Scene):
+    CONFIG = {
+        # CONFIG可以被继承
+    }
+
     # 一个对象在Scene中只能同时拥有一个
     def construct(self):
         arc = Arc(
